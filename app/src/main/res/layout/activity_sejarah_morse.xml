@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sejarah_morse"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bekfrond"
+    tools:context="com.example.arinal.mobscout.sejarahMorseActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sejarah Sandi Morse"
+        android:textSize="22sp"
+        android:textColor="@color/putih"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nAwal penggunaan\n\n
+Kode morse pertama kali digunakan secara luas setelah teknologi radio dan telegrafi berkembang pesat di akhir abad ke-19. Pada awal-awal penggunaannya kode morse dipakai untuk pengiriman pesan antara dua tempat yang terpisah jauh dengan menggunakan teknologi radio CW atau gelombang tetap sebelum ditemukannya komunikasi radio dengan suara. Hal ini dikarenakan radio pada masa awalnya masih pada penggunaan gelombang rendah, yang tidak mampu mengirimkan gelombang suara, namun dapat mengirimkan bunyi sederhana seperti bunyi panjang-pendek dari kode morse.
+\n\nKode morse dalam kepramukaan\n\n
+Kode morse juga digunakan dan dipelajari di dunia kepramukaan atau kepanduan. Dalam dunia kepramukaan kode morse disampaikan menggunakan senter atau peluit pramuka. Kode morse disampaikan dengan cara menuip peluit dengan durasi pendek untuk mewakili titik dan meniup peluit dengan durasi panjang untuk mewakili garis.\n\n
+Untuk menghafalkan kode ini digunakan metode yang mengelompokkan huruf-huruf berdasarkan bagaimana huruf ini diwakili oleh kode morsenya. Pengelompokan tersebut antara lain Alphabet dengan kode morse yang berkebalikan antara titik dan garis, misalnya huruf K yang diwakili oleh -.- berkebalikan dengan huruf R yang diwakili oleh .-. dan alfabet dengan kode morse berlawanan. Misalnya, huruf A yang diwakili oleh .- dan huruf N yang diwakili oleh -..\n\n
+Kemampuan menerima dan mengirimkan kode morse merupakan salah satu dari kecakapan yang dapat menerima Tanda Kecakapan Khusus. Kode morse juga digunakan sebagai kunci dalam memecahkan Sandi Rumput.
+"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/putih"
+            android:layout_marginTop="18dp"
+            android:textSize="16sp"/>
+    </ScrollView>
+
+
+</LinearLayout>

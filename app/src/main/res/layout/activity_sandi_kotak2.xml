@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sandi_kotak2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bekfrond"
+    tools:context="com.example.arinal.mobscout.sandiKotak2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SANDI KOTAK 2"
+        android:textColor="@color/putih"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="23sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tidak berbeda jauh dengan sandi kotak 1, bedanya hanya bentuk kuncinya dibuat pagar saja tanpa bentuk silang, penulisan hurufnya masing-masing 3 huruf pada tempatnya kecuali dua huruf terakhir, demikian pula pemberian titik pada hurufnya, huruf pertama tanpa titik, huruf kedua dengan satu titik dan huruf ketiga dengan dua titik, kecuali pada huruf Y dan Z.\n\n
+
+Perhatikan kunci dan contoh berikut:\n\n
+"
+                android:textColor="@color/putih"
+                android:layout_marginTop="18dp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sandikotak2"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

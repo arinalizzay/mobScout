@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sejarah_sandi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bekfrond"
+    tools:context="com.example.arinal.mobscout.sejarahSandiActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEJARAH SANDI"
+        android:textColor="@color/putih"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="23sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asal Mula sandi ini berasal dari para pahlawan jaman dulu yang suka berkelana dan suka berpindah-pindah tempat tinggal. Untuk itu, mereka harus memiliki kata sandi untuk bisa mempergunakan berbagai bentuk sandi-sandi tertentu untuk mengecoh/mengelabui lawan-lawan atau musuh-musuhnya.\n\n
+
+Sekitar tahun 3000 SM, di Kerajaan Babilonia telah ditemukan tulisan cuneiform. Untuk mengirimkan berita rahasia antar kota. Mereka menulisi pesan du kepala para budak yang baru di cukur, lalu menunggu samoai rambutnya tymbuh. Kemudian budak itu dikirim ke tempat yang dituju.\n\n
+Di tempat tujuan. Kepala budak itu dicukur kembali untuk mengetahui pesan tersembunyi. Tentu tidak dapat disamakan dengan e-mail, tetapi cara itu terbukti berhasil dilakukan.\n\n
+
+Julius Caesar biasa mengirimkan sandi loncat. Sistem sandi ini dibuat dengan menuliskan huruf-huruf alfabet Romawi dalam satu garis. Kemudian pilih satu angka rahasia, misal 5. Letakkan telunjuk di huruf A kemudian meloncat ke samping sebanyak 5 huruf, ini akan membawa telunjuk kita di huruf F. Begitupun seterusnya.\n\n
+
+Secara teknis, sandi merupakan kata utuh yang dapat menggantikan kata lain. Contoh, para agen rahasia memakai kode Elang atau burung besar (Big Bird) untuk sebutan kepada Presiden atau kepala negara.\n\n
+
+Seni dan ilmu membuat kode atau komunikasi rahasia yang aman disebut Cryptography. Cryptography berasal dari bahasa Yunani KRYPTOS, yang artinya ‘rahasia’.\n\n
+
+Pada Masa sekarang komunikasi begitu luas dan maju, sehingga dibutuhkan kerahasiaan untuk bidang-bidang tertentu baik dinas militer, sipil maupun bisnis.\n\n
+
+Sandi atau Cryptography berguna untuk menjaga kerahasiaan suatu pesan. Bisa dibayangkan, jika sistem yang dipergunakan per-bank-an tidak memakai sandi, karena kini semua sistem di dunia telah tersambung secara global dengan internet.\n\n
+"
+            android:textAlignment="center"
+            android:textColor="@color/putih"
+            android:textSize="16sp"
+            android:layout_marginTop="18dp"
+            android:textStyle="bold"/>
+    </ScrollView>
+</LinearLayout>

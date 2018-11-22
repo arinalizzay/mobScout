@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_penemu_morse"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bekfrond"
+    tools:context="com.example.arinal.mobscout.penemuMorseActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Penemu Sandi Morse"
+        android:textSize="22sp"
+        android:textColor="@color/putih"
+        android:textAlignment="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Samuel Finley Breese Morse lahir di Chalestown, Masschusetts, Amerika Serikat, 27 April 1971. Pada umur 80 tahun Morse meninggal di New York City, New York, Amerika Serikat, 2 April 1872. Beliau adalah seorang penemu asal Amerika Serikat. Morse juga merupakan seorang, namun ia lebih terkenal atas penemuan telegraf listrik yan masih sederhana. Bersama dengan asistenya Alexander Bain, beliau menciptakan alfabet khusus untuk digunakan di telegraf, yang selanjutnya disebut dengan Kode Morse.\n\n
+
+Beliau mendapat ilham untuk membuat telegraf listrik ketika melihat seorang penumpang di kapal yang ia tumpangi memperagakan elektromagnet. Beliau adalah Dr. Charles Jackson yang merupakan orang yang menekuni bidang kelistrikan. Morse dan Charles menumpangi Kapal Sully dari Perancis menuju New York pada tanggal 2 Oktober 1932. Morse mendengar penjelasan Charles, bahwa listrik dalam kawat sepanjang apapun akan mengalis dalam sekejap.\n\n
+Penjelasan tersebut membuat Morse tertarik untuk melakukan berbagai penelitian atau percobaan yang banyak menghabiskan kekayaannya. Setelah kehabisan dana untuk penelitian, Morse kembali membuat lukisan – lukisan untuk mengumpulkan dana. Setelah lima tahun melakukan penyelidikan, Morse baru berhasil membuat pesawat sederhana sekitar tahun 1837. Untuk membuktikan hasil temuannya, Morse merencanakan memasang pesawat telegraf sepanjang 40 mil dari Washington ke Baltimore. Pada saat akan dilakukan pembuktian, Morse tidak memiliki cukup dana dan pemerintah Amerika Serikat juga enggan untuk membantu pelaksanaan kegiatan tersebut.\n\n
+
+Pada tahun 1844, tepatnya pada tanggal 14 Mei 1844 Morse megundang pembersar untuk melakukan percobaan terhadapa hasil temuannya. Pada hari itu, dikirimlah berita pertama dari Gedung Capitol di Washington menggunakan huruf sandi yang kita kenal sekarang sebagai huruf morse. Isi berita tersebut adalah “WHAT HAD GOD WROUGHT?” yang memiliki arti bahwa Morse mensyukuri pemberian Tuhan kepada kita berupa akal yang harus dikembangkan. Morse sebagai hamba saja, hanya bisa membuat alat yang mengagumkan, apalagi Tuhan Yang Maha Pencipta. Walaupun telah ditemukan pada tahun 1837, namun baru tahun 1851 dalam sebuah konferensi internasional, huruf morse diterima dan dipergunakan di seluruh dunia.\n\n
+Morse hidup sampai usia lanjut. Ia sempat menyaksikan saluran telegraf dipasang di seluruh bagian dunia termasuk kabel-kabel bawah laut. Pada ulang tahunnya yang ke delapan puluh. Sebuah patung dirinya diresmikan di Central Park, New York sebagai penghargaan atas jasa-jasanya. Setahun setelah itu ia meninggal.\n\n
+"
+            android:textAlignment="center"
+            android:textColor="@color/putih"
+            android:textStyle="bold"
+            android:layout_marginTop="18dp"/>
+    </ScrollView>
+</LinearLayout>

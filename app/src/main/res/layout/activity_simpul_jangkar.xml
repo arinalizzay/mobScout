@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_simpul_jangkar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bekfrond"
+    tools:context="com.example.arinal.mobscout.simpulJangkarActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIMPUL JANGKAR"
+        android:textColor="@color/putih"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="23sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Untuk membuat simpul jangkar atau cow hitch sangat mudah. Ada beberapa cara dalam membuat simpul jangkar. Cara yang paling umum dan dianjurkan adalah sebagai berikut:\n
+                "
+                android:textColor="@color/putih"
+                android:textSize="16sp"
+                android:layout_marginTop="18dp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/simpuljangkar"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nFungsi : Gunanya Untuk membuat tanduk darurat atau mengikat ember/timba."
+                android:textColor="@color/putih"
+                android:textSize="16sp"
+                android:layout_marginTop="18dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

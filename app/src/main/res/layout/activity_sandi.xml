@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sandi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bekfrond"
+    tools:context="com.example.arinal.mobscout.sandiActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sandi AN AZ"
+                android:id="@+id/sandiAnaz"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sandi AND"
+                android:id="@+id/sandiAnd"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sandi Koordinat"
+                android:id="@+id/sandiKoordinat"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sandi Kotak 1"
+                android:id="@+id/sandiKotak1"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sandi Kotak 2"
+                android:id="@+id/sandiKotak2"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sandi Kotak 3"
+                android:id="@+id/sandiKotak3"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sandi Kurung"
+                android:id="@+id/sandiKurung"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sandi Marengos"
+                android:id="@+id/sandiMarengos"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sandi Morse"
+                android:id="@+id/SandiMorse"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sandi Rumput"
+                android:id="@+id/sandiRumput"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

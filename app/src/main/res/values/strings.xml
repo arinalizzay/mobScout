@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mobile Scout</string>
+    <string name="title_activity_sandi">SandiActivity</string>
+    <string-array name="tipe_konversi">
+        <item>Konversi Teks ke Sandi</item>
+        <item>Konversi Sandi ke Teks</item>
+    </string-array>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tentang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="10dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bekfrond"
+    tools:context="com.example.arinal.mobscout.tentangActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:text="Aplikasi mobile-Scout ini merupakan bentuk panduan pramuka lengkap yang diciptakan khusus untuk lembaga MI ISLAM PUCANGRO yang berisi tentang berbagai materi pembelajaran yang ada dalam kegiatan pramuka.
+		\nAplikasi ini diciptakan bertujuan untuk membantu proses pembelajaran baik pembina maupun peserta didik. Adapaun Materi yang ada pada aplikasi ini diantaranya adalah : Sejarah Pramuka, Simpul, Sandi, Konversi sandi ke tulisan dan juga disertai dengan biodata Pramuka yang membina di MI ISLAM PUCANGRO tercinta.\n
+		Selain itu, Aplikasi ini dilengkapi dengan Latihan Soal yang bertujuan untuk menguji kefahaman peserta didik terhadap materi yang telah diberikan oleh pembina"
+
+                android:textAlignment="center"
+                android:textColor="@color/putih"
+                android:textSize="16sp"
+                android:layout_marginTop="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="90dp"
+            android:textAlignment="center"
+            android:text="Developped and \n  Programmed by : \n\n\n Arinal Izza Yudhistira"
+            android:textColor="@color/putih"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/arin"
+            android:id="@+id/imageView" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

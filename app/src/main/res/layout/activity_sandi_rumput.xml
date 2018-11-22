@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sandi_rumput"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bekfrond"
+    tools:context="com.example.arinal.mobscout.sandiRumputActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SANDI RUMPUT"
+        android:textStyle="bold"
+        android:textColor="@color/putih"
+        android:textAlignment="center"
+        android:textSize="23sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sandi ini berpedoman pada huruf sandi Morse, cara menuliskan seperti rumput yang sedang tumbuh, dimana rumput pendek sama dengan titik(.) dan rumput panjang sama dengan strip(-).
+
+Kemudian untuk menyambung antara satu huruf dengan hruf lainnya adalah dengan tanda tanah yang datar.\n\n
+Perhatikan contoh berikut:\n
+"
+
+                android:textColor="@color/putih"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sandirumput"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

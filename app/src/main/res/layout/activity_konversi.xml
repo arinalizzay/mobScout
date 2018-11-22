@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_konversi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bekfrond"
+    tools:context="com.example.arinal.mobscout.konversiActivity">
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konversi Teks ke Sandi Morse"
+        android:textStyle="bold"
+        android:textColor="@color/putih"
+        android:textSize="17sp"
+        android:id="@+id/judul_konversi"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan yang ingin dikonversi"
+            android:textColor="@color/putih"
+            android:id="@+id/input_konversi"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Konversi"
+            android:background="@color/btnColor"
+            android:textColor="@color/putih"
+            android:textStyle="bold"
+            android:id="@+id/submit_konversi"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="17sp"
+        android:textColor="@color/putih"
+        android:text="Hasil konversi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/hasil_konversi"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:background="@color/bgSoal"
+                android:textColor="@color/putih"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+</ScrollView>
+
+
+</LinearLayout>

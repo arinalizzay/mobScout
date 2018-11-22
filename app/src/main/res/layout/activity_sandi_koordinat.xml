@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sandi_koordinat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bekfrond"
+    tools:context="com.example.arinal.mobscout.sandiKoordinatActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SANDI KOORDINAT"
+        android:textColor="@color/putih"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="23sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dalam menentukan kata kunci seorang pramuka berhak menggunakan kata-kata yang mereka pilih dan sepakati sendiri, secara umum terdiri atas dua kata yang masing-masing kata terdiri atas 5 huruf seperti MERAH PUTIH, BALAI IRUNG, MAWAR MWERAH dan lain-lain.\n\n
+
+Dalam merangkai satu huruf dengan huruf yang lainya digunakan koma, untuk pemisah antara kata tetap menggunakan spasi, Cara membaca kotak kunci adalah dari kata yang diatas terlebih dahulu baru kebawah sebagai contoh kata kunci BUNGA MOLEK dan MERAH PUTIH.\n
+"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sandikoordinat"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

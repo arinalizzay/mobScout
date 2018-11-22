@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sejarah_lambang_pramuka"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bekfrond"
+    tools:context="com.example.arinal.mobscout.sejarahLambangPramukaActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sejarah Lambang Pramuka"
+        android:textSize="22sp"
+        android:textColor="@color/putih"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <ImageView
+        android:layout_width="137dp"
+        android:layout_height="75dp"
+        android:src="@drawable/lambangpramuka"
+        android:layout_weight="0.05"
+        android:layout_gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="•   A. Gerakan Pramuka berlambangkan: Gambar silhouette TUNAS KELAPA\n
+•	B. Lambang Gerakan Pramuka diciptakan oleh Sumardjo Atmodipuro (almarhum), seorang Pembina Pramuka yang aktif bekerja sebagai Pegawai Tinggi Departeman Pertanian\n\n
+•	C. Lambang Gerakan Pramuka digunakan sejak tanggal 14 Agustus 1961 pada Panji-panji Gerakan Pramuka yang dianugerahkan kepada Gerakan Pramuka oleh Presiden republik Indonesia.\n\n
+•	D. Pemakaian lambang Gerakan Pramuka sebagai lencana dan penggunaannya dalam tanda-tanda, bendera, papan nama, dsb. diatur dalam Petunjuk-petunjuk Penyelenggaraan.\n\n
+•	E. Uraian arti Lambang Gerakan Pramuka \n\n
+1.	Buah kelapa/nyiur dalam keadaan tumbuh dinamakan “CIKAL”, dan istilah “cikal bakal” di Indonesia berarti: penduduk asli yang pertama yang menurunkan generasi baru.\n\n
+Jadi buah kelapa/nyiur yang tumbuh itu mengandung kiasan bahwa tiap Pramuka merupakan inti bagi kelangsungan hidup Bangsa Indonesia.\n\n
+2.	Buah kelapa/nyiur dapat bertahan lama dalam keadaan yang bagaimanapun juga.\n\n
+Jadi lambang itu mengkiaskan bahwa tiap Pramuka adalah seorang yang rokhaniah dan jasmaniah sehat, kuat, ulet, serta besar tekadnya dalam menghadapi segala tantangan dalam hidup dan dalam menempuh segala ujian dan kesukaran untuk mengabdi tanah air dan bangsa Indonesia.\n\n
+3.	Kelapa/nyiur dapat tumbuh dimana saja, yang membuktikan besarnya daya upaya dalam menyesuaikan dirinya dengan keadaan sekelilingnya.\n\n
+Jadi melambangkan, bahwa tiap Pramuka dapat menyesuaikan diri dalam masyarakat dimana dia berada dan dalam keadaan bagaiaman juga.\n\n
+4.	Kelapa/nyiur tumbuh menjulang lurus keatas dan merupakan salah satu pohan yang tertinggi di Indonesia.\n\n
+Jadi melambangkan, bahwa tiap Pramuka mempunyai cita-cita yang tinggi dan lurus, yakni yang mulia dan jujur, dan ia tetap tegak tidak mudah diombang-ambingkan oleh sesuatu.\n\n
+5.	Akar Kelapa/nyiur tumbuh kuat dan erat di dalam tanah.\n\n
+Jadi lambang itu mengkiaskan, tekad dan keyakinan tiap Pramuka yang berpegang pada dasar-dasar dan landasan-landasan yang baik, benar, kuat dan nyata ialah tekad dan keyakinan yang dipakai olehnya untuk memperkuat diri guna mencapai cita-citanya.\n\n
+6.	Kelapa/nyiur adalah pohon yang serba guna, dari ujung atas hingga akarnya.\n\n
+Jadi lambang itu mengkiaskan, bahwa tiap Pramuka adalah manusia yang berguna, dan membaktikan diri dan kegunaanya kepada kepentingan Tanah air, Bangsa dan Negara Kesatuan Republik Indonesia serta kepada umat manusia.\n\n
+"
+            android:layout_marginTop="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/putih"/>
+
+    </ScrollView>
+
+
+</LinearLayout>

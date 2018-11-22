@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arinal.mobscout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".BiodataActivity"
+            android:label="Biodata Pembina" />
+        <activity
+            android:name=".sandiActivity"
+            android:label="Kumpulan Sandi" />
+        <activity
+            android:name=".simpulActivity"
+            android:label="Kumpulan Simpul" />
+        <activity
+            android:name=".materiUmumActivity"
+            android:label="Materi Umum" />
+        <activity
+            android:name=".sejarahActivity"
+            android:label="Kumpulan Sejarah" />
+        <activity
+            android:name=".tentangActivity"
+            android:label="Tentang Aplikasi" />
+        <activity android:name=".ExitActivity" />
+        <activity
+            android:name=".konversiActivity"
+            android:label="Konversi Sandi" />
+        <activity
+            android:name=".AwalSoalActivity"
+            android:label="Latihan Soal" />
+        <activity
+            android:name=".SejarahPramukaDuniaActivity"
+            android:label="Sejarah Pramuka di Dunia" />
+        <activity
+            android:name=".sejarahPramukaIndoActivity"
+            android:label="Sejarah Pramuka di Indonesia" />
+        <activity
+            android:name=".sejarahLambangPramukaActivity"
+            android:label="Sejarah Lambang Pramuka" />
+        <activity
+            android:name=".sejarahMorseActivity"
+            android:label="Sejarah Morse" />
+        <activity
+            android:name=".penemuMorseActivity"
+            android:label="Penemu Morse" />
+        <activity
+            android:name=".gunaSemaphoreActivity"
+            android:label="Kegunaan Semaphore" />
+        <activity
+            android:name=".penemuSemaphoreActivity"
+            android:label="Penemu Semaphore" />
+        <activity
+            android:name=".sejarahSandiActivity"
+            android:label="Sejarah Sandi" />
+        <activity
+            android:name=".ssandiMorseActivity"
+            android:label="Sandi Morse" />
+        <activity
+            android:name=".sandiKotak1Activity"
+            android:label="Sandi Kotak 1" />
+        <activity
+            android:name=".sandiKotak2Activity"
+            android:label="Sandi Kotak 2" />
+        <activity
+            android:name=".sandiKotak3Activity"
+            android:label="Sandi Kotak 3" />
+        <activity
+            android:name=".sandiKoordinatActivity"
+            android:label="Sandi Koordinat" />
+        <activity
+            android:name=".sandiKurungActivity"
+            android:label="Sandi Kurung" />
+        <activity
+            android:name=".sandiRumputActivity"
+            android:label="Sandi Rumput" />
+        <activity
+            android:name=".sandiAndActivity"
+            android:label="Sandi AND" />
+        <activity
+            android:name=".sandiAnazActivity"
+            android:label="Sandi AN AZ" />
+        <activity
+            android:name=".sandiMarengosActivity"
+            android:label="Sandi Marengos" />
+        <activity
+            android:name=".simpulMatiActivity"
+            android:label="Simpul Mati" />
+        <activity
+            android:name=".simpulHidupActivity"
+            android:label="Simpul Hidup" />
+        <activity
+            android:name=".simpulJangkarActivity"
+            android:label="Simpul Jangkar" />
+        <activity
+            android:name=".simpulPangkalActivity"
+            android:label="Simpul Pangkal" />
+        <activity
+            android:name=".simpulAnyamActivity"
+            android:label="Simpul Anyam" />
+        <activity
+            android:name=".simpulLasoMain2Activity"
+            android:label="Simpul Laso" />
+        <activity
+            android:name=".simpulAnyamBergandaActivity"
+            android:label="Simpul Anyam Berganda" />
+        <activity
+            android:name=".simpulAnyamRantaiActivity"
+            android:label="Simpul Anyam Rantai" />
+        <activity
+            android:name=".simpulUjungTaliActivity"
+            android:label="Simpul Ujung Tali" />
+        <activity
+            android:name=".simpulTiangActivity"
+            android:label="Simpul Tiang" />
+        <activity
+            android:name=".simpulEratActivity"
+            android:label="Simpul Erat" />
+        <activity
+            android:name=".simpulTambatActivity"
+            android:label="Simpul Tambat" />
+        <activity
+            android:name=".dasadharmaActivity"
+            android:label="Dasa Dharma Pramuka" />
+        <activity
+            android:name=".trisatyaActivity"
+            android:label="Trisatya Pramuka" />
+        <activity
+            android:name=".semaphoreActivity"
+            android:label="Semaphore" />
+        <activity android:name=".splashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuActivity"
+            android:label="Latihan Soal"/>
+        <activity android:name=".SoalActivity"
+            android:label="Latihan Soal" />
+        <activity android:name=".HasilActivity"
+            android:label="Score"/>
+        <activity android:name=".pancasilaActivity"></activity>
+    </application>
+
+</manifest>

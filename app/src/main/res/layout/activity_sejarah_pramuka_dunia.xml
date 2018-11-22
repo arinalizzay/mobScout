@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sejarah_pramuka_dunia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bekfrond"
+    android:orientation="vertical"
+    tools:context="com.example.arinal.mobscout.SejarahPramukaDuniaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEJARAH PRAMUKA DUNIA"
+        android:textColor="@color/putih"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="23sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sejarahPramukaDunia"
+        android:text="Awal tahun 1908 Baden Powell menulis pengalamannya untuk acara latihan kepramukaan yang dirintisnya. Kumpulan tulisannya ini dibuat buku dengan judul “Scouting For Boys”. Buku ini cepat tersebar di Inggris dan negara-negara lain yang kemudian berdiri organisasi kepramukaan yang semula hanya untuk laki-laki dengan nama Boys Scout.\n\n
+ Tahun 1912 atas bantuan adik perempuan beliau, Agnes didirikan organisasi kepramukaan untuk wanita dengan nama Girl Guides yang kemudian diteruskan oleh istri beliau.\n\n
+Tahun 1916 berdiri kelompok pramuka usia siaga dengan nama CUB (anak serigala) dengan buku The Jungle Book karangan Rudyard Kipling sebagai pedoman kegiatannya. Buku ini bercerita tentang Mowgli si anak rimba yang dipelihara di hutan oleh induk serigala.\n\n
+Tahun 1918 beliau membentuk Rover Scout bagi mereka yang telah berusia 17 tahun. Tahun 1922 beliau menerbitkan buku Rovering To Success (Mengembara Menuju Bahagia). Buku ini menggambarkan seorang pemuda yang harus mengayuh sampannya menuju ke pantai bahagia.\n\n
+Tahun 1920 diselenggarakan Jambore Dunia yang pertama di Olympia Hall, London. Beliau mengundang pramuka dari 27 Negara dan pada saat itu Baden Powell diangkat sebagai Bapak Pandu Sedunia (Chief Scout of The World).\n\n
+ Tahun 1914 beliau menulis petunjuk untuk kursus Pembina Pramuka dan baru dapat terlaksana tahun 1919. Dari sahabatnya yang bernama W.F. de Bois Maclarren, beliau mendapat sebidang tanah di Chingford yang kemudian digunakan sebagai tempat pendidikan Pembina Pramuka dengan nama Gilwell Park.\n\n
+Tahun 1920 dibentuk Dewan Internasional dengan 9 orang anggota dan Biro Sekretariatnya di London, Inggris dan tahun 1958 Biro Kepramukaan sedunia dipindahkan dari London ke Ottawa Kanada. Tanggal 1 Mei 1968 Biro kepramukaan Sedunia dipindahkan lagi ke Geneva, Swiss.\n\n
+Sejak tahun 1920 sampai 19 Kepala Biro Kepramukaan Sedunia dipegang berturut-turut oleh Hebert Martin (Inggris). Kolonel J.S. Nilson (Inggris), Mayjen D.C. Spry (Kanada) yang pada tahun 1965 diganti oleh R.T. Lund 1 Mei 1968 diganti lagi oleh DR. Laszio Nagy sebagai Sekjen.\n\n
+Biro Kepramukaan sedunia Putra mempunyai 5 kantor kawasan yaitu Costa Rica, Mesir, Philipina, Swiss dan Nigeria. Sedangkan Biro kepramukaan Sedunia Putri bermarkas di London dengan 5 kantor kawasan di Eropa, Asia Pasifik, Arab, Afrika dan Amerika Latin.\n\n
+"
+        android:textAlignment="center"
+
+        android:textColor="@color/putih"
+        android:textStyle="bold"
+        android:layout_marginTop="18dp"
+        android:textSize="16sp"/>
+    </ScrollView>
+</LinearLayout>

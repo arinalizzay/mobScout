@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bekfrond">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30sp"
+        android:layout_marginLeft="10dp"
+        android:text="Latihan soal ini merupakan suatu latihan yang bertujuan untuk menguji seberapa faham terhadap semua materi yang telah diberikan dalam kepramukaan.\n\n
+        Aturan Nilai :\n\n
+        Jika jawaban benar +20\n
+        Jika jawaban salah -5\n\n\n\n\n\n\n\n\n\n
+
+        Developped by :\n\n
+        Arinal Izza Yudhistira"
+        android:textColor="@color/putih"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

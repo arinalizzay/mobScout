@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_guna_semaphore"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bekfrond"
+    tools:context="com.example.arinal.mobscout.gunaSemaphoreActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kegunaan Semaphore"
+        android:textColor="@color/putih"
+        android:textAlignment="center"
+        android:textSize="23sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gunaSemaphore"
+            android:text="Semaphore biasa digunakan hubungan antara kapal dengan darat atau sebaliknya atau kapal dengan kapal. Semaphore ini sangat tergantung dengan keadaan cuaca, lingkungan, dan waktu serta jarak. Sehingga sudah jarang digunakan oleh tim SAR yang sedang melakukan pencarian di gunung atau hutan.\n\n
+Semaphore adalah suatu isyarat dalam menyampaikan berita dengas sepasang bendera semaphore. Bendera tersebut diikatkan pada tongkat pendek dan dipegang menggunakan kedua tangan. Huruf dan angka disampaikan dengan pengaturan gerakan sepasang bendear tersebut. \n\n
+Tapi sejak munculnya isyarat morse yang lebih praktis, dan ditambah  dengan  munculnya sebuah alat telekomunikasi elektronik, penggunaan isyarat semaphore mulai berkurang. Dan kenyataannya pada masa-masa sekarang ini semaphore sudah sangat jarang atau bisa dikatakan tidak digunakan lagi. \n\n
+Kegunaan  semaphore adalah untuk menyampaikan berita jarak jauh, sepanjang pemberitaan ini masih bisa tertangkap oleh pihak kedua (bisa dilihat dengan mata). Tetapi disaat ini sudah jarang dan hampir tidak pernah lagi digunakan. Walaupun terkadang masih berguna dalam keadaan-keadaan darurat.\n\n
+"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/putih"
+            />
+    </ScrollView>
+</LinearLayout>

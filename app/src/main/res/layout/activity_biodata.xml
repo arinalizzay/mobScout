@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_biodata"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bekfrond"
+    tools:context="com.example.arinal.mobscout.BiodataActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Daftar Nama Pembina\n MI Islam Pucangro"
+    android:textColor="@color/putih"
+    android:textAlignment="center"
+    android:fontFamily="sans-serif"
+    android:textSize="24sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/zaini"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Ahmad Zaini"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 23 Juli 1981"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Pucangro Kalitengah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Penanggung Jawab"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="08563408125"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/didin"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Didin Bustanul Arifin"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 16 Desember 1997"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="RT1/RW3. Pucangro Kalitengah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Sejarah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="085646268576"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="114dp"
+                android:src="@drawable/inun"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="M. Ainun Najib"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 18 Desember 1993"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="RT1/RW2. Pucangro Kalitengah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Musik (Yel Yel)"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="085733564112"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/alip"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Allif Firmansyah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Surabaya, 25 September 1997"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Pucangro Kalitengah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Pioneering"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="08563123397"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/arinal"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Arinal Izza Yudhistira"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 24 Maret 1997"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="RT1/RW4. Pucangro Kalitengah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Sandi dan Morse"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="085791569992"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ftiriisnaini"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Fitri Isnaini Putri Ali"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 12 Februari 1998"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Pucangro Kalitengah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Semaphore"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="085745394122"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/revi"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Revi Ratnasari"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Surabaya, 21 September 1995"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Ds.Piyak Kec.Kanor Bojonegoro"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Semaphore"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="085604806648"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/khotim"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Khotim Nur Aini"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 13 April 1996"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Pucangro Kalitengah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Ke NU an"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="085648713069"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/himma"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Himmatul Ulya"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 02 Maret 1998"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Pucangro Kalitengah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Ice Breaking"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="08983635916"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/laili"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Nur Laily Hidayati"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 23 September 1997"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Pucangro Kalitengah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Renungan Malam"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="085790952291"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/restu"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Restu Rahayu Ningsih"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 07 Februari 1998"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Pucangro Kalitengah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="PBB"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="085608240302"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/diana"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Diana Dwi Yusmita Sari"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 14 April 1999"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Pucangro Kalitengah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="PPGD"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="085732491214"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/hajir"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Ahmad Muhajir"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 06 Agustus 1999"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="RT1/RW3. Pucangro Kalitengah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Halang Rintang"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="085732717599"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ihsan"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Akbarul Ikhsan Musthofa"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 11 April 2000"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="RT1/RW1. Pucangro Kalitengah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Pioneering"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="085608268791"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/andika"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="M. Andika Firmansya P."
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 08 Maret 2001"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Sungelebak Karanggeneng LMG"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Pioneering"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="081553817144"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/aldhi"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Mochammad Aldhi Pradana"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 09 Agustus 1999"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Sungelebak Karanggeneng LMG"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Morse"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="085607156373"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/alvis"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="M. Alfis Aldiansyah"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 05 Oktober 2001"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Sungelebak Karanggeneng LMG"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Ice Breaking"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="085755429016"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+
+            </TableLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/fenia"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:padding="5dp">
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Nama : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Fennia Lailatul Auliya"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="TTL : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Lamongan, 26 Januari 2002"
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Alamat : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Sungelebak Karanggeneng LMG"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="Spesialis : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="Sandi"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:text="No Hp : "
+                        android:textColor="@color/putih"
+                        android:textSize="16sp"
+                        android:layout_column="0"
+                        />
+                    <TextView
+                        android:text="082228272411"
+                        android:textColor="@color/putih"
+                        android:textSize="15sp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</HorizontalScrollView>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_simpul"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bekfrond"
+    tools:context="com.example.arinal.mobscout.simpulActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpul Anyam"
+                android:id="@+id/simpulAnyam"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpul Anyam Berganda"
+                android:id="@+id/simpulAnyamBerganda"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpul Anyam Rantai"
+                android:id="@+id/simpulAnyamRantai"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpul Erat"
+                android:id="@+id/simpulErat"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpul Hidup"
+                android:id="@+id/simpulHidup"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpul Jangkar"
+                android:id="@+id/simpulJangkar"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpul Laso"
+                android:id="@+id/simpulLaso"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpul Mati"
+                android:id="@+id/simpulMati"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpul Pangkal"
+                android:id="@+id/simpulPangkal"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpul Tambat"
+                android:id="@+id/simpulTambat"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpul Tiang"
+                android:id="@+id/simpulTiang"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpul Ujung Tali"
+                android:id="@+id/simpulUjungTali"
+                android:background="@color/btnColor"
+                android:layout_margin="3dp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
